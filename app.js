@@ -8,8 +8,6 @@ const people = [];
 
 const randomChoice = (random) => random[Math.floor(Math.random() * random.length)];
 
-
-
 for (let i = 0; i < 20; i++){
   const gender = randomChoice(genders);
   const firstName = gender === 'M' ? randomChoice(maleNames) : randomChoice (femaleNames);
